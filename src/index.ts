@@ -13,7 +13,7 @@ app.use('/static', express.static('dist/public'), express.static('src/public'));
 
 app.use('/api', apiRouter);
 
-app.get('/', async (req, res) => {
+app.get('/chess', async (req, res) => {
     res.sendFile(path.resolve('src/public/pages/report/index.html'));
 });
 
