@@ -14,7 +14,7 @@ app.use('/static', express.static('dist/public'), express.static('src/public'));
 app.use('/api', apiRouter);
 
 app.get('/', async (req, res) => {
-    res.sendFile(path.resolve('src/public/pages/report/index.html'));
+    res.sendFile(path.resolve('src/public/index.html'));
 });
 
 app.listen(process.env.PORT, () => {
