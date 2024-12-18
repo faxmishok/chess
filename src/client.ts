@@ -1,8 +1,14 @@
 import "./public/global.css"; // CSS
+import "./public/pages/report/styles/index.css";
+import "./public/pages/report/styles/announcement.css";
+import "./public/pages/report/styles/board.css";
+import "./public/pages/report/styles/gameselect.css";
+import "./public/pages/report/styles/reviewpanel.css";
+import "./public/pages/report/styles/report.css";
 
 // Import scripts so Webpack includes them
-import "./public/pages/report/scripts/analysis";
 import "./public/pages/report/scripts/sprites";
+import "./public/pages/report/scripts/analysis";
 import "./public/pages/report/scripts/board";
 import "./public/pages/report/scripts/engine";
 import "./public/pages/report/scripts/evalbar";
